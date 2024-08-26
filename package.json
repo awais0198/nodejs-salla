@@ -9,7 +9,7 @@
     "prettier": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "awais098",
+  "author": "awais0198",
   "license": "MIT",
   "dependencies": {
     "aws-lambda": "^1.0.7",

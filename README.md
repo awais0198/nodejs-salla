@@ -27,7 +27,7 @@ This project is a SaaS billing application built with Node.js, TypeScript, and M
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/awais098/nodejs-salla.git
+   git clone https://github.com/awais0198/nodejs-salla.git
    cd nodejs-salla
 ### Install Dependencies
 
@@ -40,11 +40,17 @@ Create a .env file in the root directory with the following example variables:
 
 ### env
 
-    MONGO_URI=mongodb://localhost:27017/yourdbname
-    EMAIL_SERVICE=your-email-service
+    PORT=8000
+    MONGO_CLUSTER_URI=//localhost:27017/yourdbname
+    MONGO_APP_NAME=
+    MONGO_USER_NAME=
+    MONGO_USER_PASSWORD=
+    MAILER_SERVICE=
     EMAIL_USER=your-email-user
     EMAIL_PASS=your-email-pass
+    SENDING_EMAIL=
     STRIPE_SECRET_KEY=your-stripe-secret-key
+
 ### Run the Application
 
 For development:
